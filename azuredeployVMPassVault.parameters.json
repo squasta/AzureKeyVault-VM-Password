@@ -10,7 +10,7 @@
         "keyVault": {
           "id": "/subscriptions/METTRE-ICI-L-ID-DE-LA-SUBSCRIPTION-AZURE/resourceGroups/RG-AzureKeyVaultStan/providers/Microsoft.KeyVault/vaults/AzureKeyVaultStan"
          },
-        "secretName": "MotDePasseVM"
+        "secretName": "PasswordVM"
       }
     },
     "dnsLabelPrefix": {

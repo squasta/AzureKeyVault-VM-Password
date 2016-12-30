@@ -31,7 +31,7 @@ New-AzureRmKeyVault -VaultName 'AzureKeyVaultStan' -ResourceGroupName 'RG-AzureK
 #-- Create a Secret and store it in Azure Key Vault
 #--- Creer un secret et le stocker dans l'Azure Key Vault ----
 $Secret = ConvertTo-SecureString -String 'Password1234' -AsPlainText -Force 
-Set-AzureKeyVaultSecret -VaultName 'AzureKeyVaultStan' -Name 'Password2017VM' -SecretValue $Secret
+Set-AzureKeyVaultSecret -VaultName 'AzureKeyVaultStan' -Name 'PasswordVM' -SecretValue $Secret
 
 #-- Create a Resource Group for VM deployment
 #-- Creer un resource Group pour deployer la VM
